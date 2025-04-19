@@ -22,7 +22,7 @@ export const SideBar = ({ category,setCategory }) => {
   return (
     <div
       className={`bg-white shadow-lg h-full p-4 transition-all duration-300 
-      flex flex-col gap-0.5 ${isCollapsed ? "w-20 gap-3.5" : "w-60"}`}
+      flex flex-col gap-0.5 lg-${isCollapsed ? "w-20 gap-3.5" : "w-60"}`} 
     >
       {/* Navigation Section */}
       <div className="space-y-2" >
