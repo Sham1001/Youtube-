@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { SideBar } from '../components/SideBar'
-import Feed from '../components/feed'
+import Feed from '../components/Feed'
 
 export const Home = () => {
   const [category,setCategory] = useState(0);
