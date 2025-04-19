@@ -21,8 +21,12 @@ export const SideBar = ({ category,setCategory }) => {
 
   return (
     <div
-      className={`bg-white shadow-lg h-full p-4 transition-all duration-300 
-      flex flex-col gap-0.5 lg-${isCollapsed ? "w-20 gap-3.5" : "w-60"}`} 
+      className={`bg-white shadow-lg p-4 transition-all duration-300 
+      flex flex-col gap-0.5 lg-${isCollapsed ? "w-20 gap-3.5" : "w-60"}`
+      }
+      style={{
+        height: "calc(100vh - 68px)", // match the height in Home.jsx
+      }} 
     >
       {/* Navigation Section */}
       <div className="space-y-2" >
