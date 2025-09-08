@@ -2,6 +2,9 @@
 
 A responsive YouTube clone built using **React** and the **YouTube Data API v3**. It allows users to search, view, and explore trending videos with a clean and modern UI.
 
+## 🚀 Live Demo  
+[Click here to try the app](https://shamsadyoutube.vercel.app/)
+
 ## Features
 
 - Search videos by keyword  
